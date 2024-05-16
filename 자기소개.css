@@ -183,3 +183,34 @@ footer {
     height: 200px;
     background-color: rgb(39, 39, 39);
 }
+footer > nav {
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    margin: auto;
+}
+.link1 {
+    width: 1100px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.link1 h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.link1 span {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.link2 {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    color: rgb(118, 118, 118);
+}
+
