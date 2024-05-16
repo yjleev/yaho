@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 125px;
+    padding-top: 20px;
+}
+header > nav {
+    width: 1300px;
+    height: 120px;
+    margin: 0 auto;
+}
+.drop1 {
+    width: 220px;
+    height: 120px;
+    margin-left: 140px;
+    transition: 0.7s;
+    display: inline-block;
+}
+.logo {
+    width: 220px;
+    height: 120px;
+    display: inline-block;
+    cursor: pointer;
+}
+.dropall span {
+    display: block;
+    width: 160px;
+    height: 23px;
+    overflow: hidden;
+}
+.drop1  a {
+    display: none;
+    width: 160px;
+    height: 65px;
+    background-color: rgb(128, 176, 128);
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+.drop1:hover, .dropall:hover {
+    width: 1100px;
+    display: flex;
+}
+.drop1:hover .dropall, .dropall:hover {
+    width: 880px;
+    height: 110px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.drop1:hover .menu, .dropall:hover {
+    display: block;
+    transition: 0.3s;
+    position: relative;
+}
+.drop1:hover .menu:hover {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+.exp {
+    width: 320px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+.arrow {
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.titlemenu {
+    display: block;
+    width: 130px;
+    height: 50px;
+    font-size: 50px;
+}
+.section1 {
+    height: 600px;
+}
+.section1 > section {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 0 0 3px black inset;
+    border-radius: 50px;
+}
+.face {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+.exp1 {
+    width: 790px;
+    height: 490px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.exp1 > h1 {
+    font-size: 80px;
+    letter-spacing: 15px;
+}
+.exp1 > span {
+    display: block;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.section2 {
+    height: 700px;
+    background-color: rgb(67, 121, 67);
+}
+.section2 > section {
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section2 h1 {
+    text-align: center;
+    font-size: 45px;
+}
+.ani1 {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.life {
+    display: none;
+}
+.img1, .life {
+    width: 640px;
+    height: 480px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+.img1:hover, .life:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+.ani {
+    width: 7040;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.ani {
+    animation-duration: 20s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+footer {
+    height: 200px;
+    background-color: rgb(39, 39, 39);
+}
